@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import FeedbackContext from "../context/FeedbackContext";
 
-function FeedbackStats({ feedback }) {
-    const average = Math.round(
-      feedback.reduce((acc, { rating }) => acc + rating, 0) / feedback.length
-    );
+function FeedbackStats() {
+  const { feedback } = useContext(FeedbackContext);
+  const average = Math.round(
+    feedback.reduce((acc, { rating }) => acc + rating, 0) / feedback.length
+  );
 
   return (
     <>
