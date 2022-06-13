@@ -1,3 +1,12 @@
+# Live Demo of project
+
+[feedback-app-web](https://chipper-squirrel-17d866.netlify.app/).
+
+# Credits
+Udemy - React Front To Back 2022 cource - Brad Traversy
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
